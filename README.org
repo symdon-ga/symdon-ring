@@ -1,6 +1,18 @@
 #+TITLE: symdon-ring
+#+STARTUP: indent hidestars inlineimages
 
 A Clojure library designed to ... well, that part is up to you.
+
+
+* Build executable jar file
+
+#+BEGIN_SRC shell :results scalar
+lein uberjar
+#+END_SRC
+
+#+RESULTS:
+: Created /srv/symdon-ga/symdon-ring/target/symdon-ring-0.1.0-SNAPSHOT.jar
+: Created /srv/symdon-ga/symdon-ring/target/symdon-ring-0.1.0-SNAPSHOT-standalone.jar
 
 * Usage
 
