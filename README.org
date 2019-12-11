@@ -1,12 +1,12 @@
-# symdon-ring
+#+TITLE: symdon-ring
 
 A Clojure library designed to ... well, that part is up to you.
 
-## Usage
+* Usage
 
 FIXME
 
-## License
+** License
 
 Copyright © 2019 FIXME
 
