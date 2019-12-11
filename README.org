@@ -14,6 +14,17 @@ lein uberjar
 : Created /srv/symdon-ga/symdon-ring/target/symdon-ring-0.1.0-SNAPSHOT.jar
 : Created /srv/symdon-ga/symdon-ring/target/symdon-ring-0.1.0-SNAPSHOT-standalone.jar
 
+* Execute uberjar
+
+#+BEGIN_SRC shell :results scalar
+java -jar target/symdon-ring-0.1.0-SNAPSHOT-standalone.jar
+#+END_SRC
+
+#+RESULTS:
+: Clojure 1.9.0
+: user=> 
+
+
 * Usage
 
 FIXME
