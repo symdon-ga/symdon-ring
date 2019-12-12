@@ -3,6 +3,7 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
+
 * Build executable jar file
 
 #+BEGIN_SRC shell :results scalar
@@ -21,6 +22,11 @@ java -jar target/symdon-ring-0.1.0-SNAPSHOT-standalone.jar
 
 #+RESULTS:
 : Hello, World!
+
+* DNS Settings
+
+https://dash.cloudflare.com/
+
 
 * Usage
 

@@ -1,0 +1,5 @@
+- listen: service symdon-ring restart
+  systemd:
+    name: symdon-ring.service
+    state: restarted
+    daemon_reload: yes

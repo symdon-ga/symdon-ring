@@ -5,3 +5,13 @@
 - copy:
     src: /srv/symdon-ga/symdon-ring/target/symdon-ring-0.1.0-SNAPSHOT-standalone.jar
     dest: /opt/symdon-ring/
+
+- template:
+    src: symdon-ring.service
+    dest: /opt/symdon-ring/symdon-ring.service
+
+- file:
+    src: /opt/symdon-ring/symdon-ring.service
+    dest: /etc/systemd/system/symdon-ring.service
+    state: link
+  notify: service symdon-ring restart

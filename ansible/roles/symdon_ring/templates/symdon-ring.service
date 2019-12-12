@@ -1,0 +1,14 @@
+[Unit]
+Description=symdon-ring
+
+[Service]
+Type = simple
+WorkingDirectory = /opt/symdon-ring
+ExecStart = java -jar symdon-ring-0.1.0-SNAPSHOT-standalone.jar
+Restart = always
+StandardOutput = append:/var/log/symdon-ring.log
+StandardError = append:/var/log/symdon-ring.log
+# EnvironmentFile = /opt/symdon-ring/symdon-ring.rc
+
+[Install]
+WantedBy=multi-user.target
