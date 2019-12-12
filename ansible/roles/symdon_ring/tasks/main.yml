@@ -1,0 +1,3 @@
+- file:
+    path: /opt/symdon-ring
+    state: directory
