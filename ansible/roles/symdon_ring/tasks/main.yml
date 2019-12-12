@@ -1,3 +1,7 @@
 - file:
     path: /opt/symdon-ring
     state: directory
+
+- copy:
+    src: /srv/symdon-ga/symdon-ring/target/symdon-ring-0.1.0-SNAPSHOT-standalone.jar
+    dest: /opt/symdon-ring/
